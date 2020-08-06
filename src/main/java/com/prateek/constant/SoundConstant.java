@@ -5,6 +5,7 @@ public enum SoundConstant {
 
 	DUCK_SOUND("Quack, quack"),
 	CHICKEN_SOUND("Cluck, cluck"),
+	ROOSTER_SOUND("Cock-a-doodle-doo"),
 	DEFAULT("Chirp");
 
 	String sound;

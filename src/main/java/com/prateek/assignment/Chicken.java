@@ -20,6 +20,14 @@ public class Chicken extends Bird implements IFlyable{
 	}
 
 	/**
+	 * This is parameterized constructor invoking bird class's
+	 * parameterized constructor with sound passed as parameter.
+	 */
+	public Chicken(final String sound) {
+		super(sound);
+	}
+
+	/**
 	 * This represents fly state of Chicken.
 	 */
 	@Override
