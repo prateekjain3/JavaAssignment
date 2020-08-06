@@ -20,4 +20,12 @@ public class Bird extends Animal {
 	public void sing() {
 		System.out.println("I am singing");
 	}
+
+	/**
+	 * This is parameterized constructor.
+	 * @param sound
+	 */
+	public Bird(final String sound){
+		System.out.println(sound);
+	}
 }

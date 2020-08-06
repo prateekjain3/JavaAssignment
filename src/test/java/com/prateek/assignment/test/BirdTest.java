@@ -21,7 +21,7 @@ public class BirdTest {
 
 	@Before
 	public void init(){
-		bird = Mockito.spy(new Bird());
+		bird = Mockito.spy(new Bird(null));
 	}
 
 	@Test
